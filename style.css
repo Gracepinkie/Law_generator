@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/phy105.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.head{
+    color: #dbe9f4;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    width:500px;
+    justify-content: center;
+    padding: 15px auto;
+    margin: 40px;
+    margin-left: 350px;
+  
+
+}
+.container{
+    background-color: #dbe9f4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px auto;
+    margin-left: 350px; 
+    box-shadow: 0 0 10px black;
+
+}
+
+.realcontent{
+    padding: 20px auto;
+    margin: 20px;
+    margin-left: 130px;
+    
+}
+.theory{
+    padding: 30px auto;
+    line-height: 1.2rem;
+    margin: 25px;
+    font-style:italic;
+    
+}
+.person{
+    padding: 20px auto;
+    margin: 20px;
+    margin-left: 130px;
+
+}
+
+button{
+    margin: 20px;
+    margin-left: 180px;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px ;
+    padding: 14px 32px;
+    background-color: #dbe9f4;
+    font-weight: 40px;
+    font-size: 1rem;
+}
+button:active{
+    background-color: black;
+    color: #dbe9f4;
+}
